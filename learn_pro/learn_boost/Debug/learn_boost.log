@@ -1,0 +1,7 @@
+﻿  VisualGDB: Run "make  CONFIG=Debug clean" in directory "/home/master/learn_pro/learn_boost" on root@192.168.1.101 (SSH)
+  rm -rf Debug
+  VisualGDB: Sending 6 updated source files to build machine...
+  VisualGDB: Run "make  CONFIG=Debug" in directory "/home/master/learn_pro/learn_boost" on root@192.168.1.101 (SSH)
+  mkdir Debug
+  g++ -std=gnu++11 -ggdb -ffunction-sections -O0  -I/usr/local/include -DDEBUG=1  -c learn_boost.cpp -o Debug/learn_boost.o -MD -MF Debug/learn_boost.dep
+  g++ -o Debug/learn_boost -Wl,-gc-sections   -L/usr/local/lib -Wl,--start-group Debug/learn_boost.o -lboost_system -lboost_program_options  -Wl,--rpath='$ORIGIN'   -Wl,--end-group

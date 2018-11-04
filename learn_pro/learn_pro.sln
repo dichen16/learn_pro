@@ -6,6 +6,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "learn_pro", "learn_pro\lear
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "learn_poco", "learn_poco\learn_poco.vcxproj", "{2857B4AD-7AC4-4B14-B6B6-B538C2B90BC1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "learn_boost", "learn_boost\learn_boost.vcxproj", "{B6F7C9E1-281F-4FBE-BE0B-21153300695B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -26,6 +28,12 @@ Global
 		{2857B4AD-7AC4-4B14-B6B6-B538C2B90BC1}.Release|x64.ActiveCfg = Release|Win32
 		{2857B4AD-7AC4-4B14-B6B6-B538C2B90BC1}.Release|x86.ActiveCfg = Release|Win32
 		{2857B4AD-7AC4-4B14-B6B6-B538C2B90BC1}.Release|x86.Build.0 = Release|Win32
+		{B6F7C9E1-281F-4FBE-BE0B-21153300695B}.Debug|x64.ActiveCfg = Debug|Win32
+		{B6F7C9E1-281F-4FBE-BE0B-21153300695B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6F7C9E1-281F-4FBE-BE0B-21153300695B}.Debug|x86.Build.0 = Debug|Win32
+		{B6F7C9E1-281F-4FBE-BE0B-21153300695B}.Release|x64.ActiveCfg = Release|Win32
+		{B6F7C9E1-281F-4FBE-BE0B-21153300695B}.Release|x86.ActiveCfg = Release|Win32
+		{B6F7C9E1-281F-4FBE-BE0B-21153300695B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
