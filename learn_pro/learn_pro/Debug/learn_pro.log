@@ -1,0 +1,6 @@
+﻿  VisualGDB: Directory /home/master/learn_pro/learn_pro does not exist. Skipping clean actions.
+  VisualGDB: Sending 6 updated source files to build machine...
+  VisualGDB: Run "make  CONFIG=Debug" in directory "/home/master/learn_pro/learn_pro" on master@192.168.56.3 (SSH)
+  mkdir Debug
+  g++ -std=gnu++11 -ggdb -ffunction-sections -O0   -DDEBUG=1  -c learn_pro.cpp -o Debug/learn_pro.o -MD -MF Debug/learn_pro.dep
+  g++ -o Debug/learn_pro -Wl,-gc-sections    -Wl,--start-group Debug/learn_pro.o   -Wl,--rpath='$ORIGIN'   -Wl,--end-group
